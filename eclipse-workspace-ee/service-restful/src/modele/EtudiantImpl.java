@@ -1,0 +1,80 @@
+package modele;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+public class EtudiantImpl implements Etudiant {
+
+	private String matricule;
+	private String nom;
+	private String prenom;
+	private List<Evaluation> evaluations = new ArrayList<>();
+	private Matiere matiere;
+	
+	
+	private double moyenne() {
+		double totalNotes = 0;
+		double totalCoefficient= 0;
+		
+		for(Evaluation iter: evaluations) {
+			totalNotes += iter.getNote()*iter.getMatiere().getCoefficient();
+			totalCoefficient += iter.getMatiere().getCoefficient();
+			
+		}
+				
+		return (totalNotes/totalCoefficient);
+	}
+	
+	public EtudiantImpl() {
+		super();
+	}
+
+	public EtudiantImpl(String matricule, String nom, String prenom) {
+		super();
+		this.matricule = matricule;
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+
+	public String getMatricule() {
+		return matricule;
+	}
+
+	public void setMatricule(String matricule) {
+		this.matricule = matricule;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+	public List<Evaluation> getEvaluations() {
+		return evaluations;
+	}
+	@Override
+	public String infos() {
+		DecimalFormat df = new DecimalFormat("####0.00");
+		return "Etudiant [matricule=" + matricule + ", nom=" + nom + ", prénom=" + prenom + ", moyenne=" + df.format(moyenne()) + "]";
+	}
+
+	@Override
+	public void addEvaluation(Evaluation nouvelle) {
+		evaluations.add(nouvelle);		
+	}
+
+	
+
+}

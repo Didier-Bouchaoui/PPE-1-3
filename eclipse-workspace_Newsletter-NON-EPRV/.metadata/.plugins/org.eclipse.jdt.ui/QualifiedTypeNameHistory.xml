@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="dto.AbonneDTO"/>
+<fullyQualifiedTypeName name="javax.ws.rs.client.ClientBuilder"/>
+<fullyQualifiedTypeName name="javax.ws.rs.client.Client"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.parser.Entity"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="ressources.Service"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="ressources.Civilite"/>
+</qualifiedTypeNameHistroy>

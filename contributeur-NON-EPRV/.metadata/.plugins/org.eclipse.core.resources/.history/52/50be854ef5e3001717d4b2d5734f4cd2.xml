@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Nouveau-contributeur SYSTEM "contributeur-elements.dtd" >
+<Nouveau-contributeur>
+  <Contributeur>
+    <prenom>pureté</prenom>
+    <nom>vraimentpure</nom>
+    <courriel>pureté@pure.fr</courriel>
+    <mobile>069696969</mobile>
+    <fixe>0169696969</fixe>
+    <specialite>hypnose</specialite>
+  </Contributeur>
+</Nouveau-contributeur>
+<Nouveau-contributeur>
+  <Contributeur>
+    <prenom>innocence</prenom>
+    <nom>pasinnocente</nom>
+    <courriel>coupable@culpabilite.fr</courriel>
+    <mobile>069696969</mobile>
+    <fixe>0169696969</fixe>
+    <specialite>espoir</specialite>
+  </Contributeur>
+</Nouveau-contributeur>
+<Nouveau-contributeur>
+  <Contributeur>
+    <prenom>insolance</prenom>
+    <nom>baguette</nom>
+    <courriel>insolance</courriel>
+    <mobile>069696969</mobile>
+    <fixe>0169696969</fixe>
+    <specialite>hypnose</specialite>
+  </Contributeur>
+</Nouveau-contributeur>

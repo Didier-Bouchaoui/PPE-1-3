@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+/home/bouchaoui/eclipse-workspace_Gestion-abonne-statistiques/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes

@@ -1,0 +1,13 @@
+INDEX VERSION 1.4+/home/bouchaoui/eclipse-workspace_Newsletter/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4282713074.index
+881629729.index
+3609016548.index
+1801226268.index
+2127009162.index
+2959288882.index
+3387571516.index
+3197319449.index
+1299740596.index
+3342138703.index
+3669303615.index
+3550624890.index

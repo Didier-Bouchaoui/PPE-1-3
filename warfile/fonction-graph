@@ -1,0 +1,9 @@
+create   or   replace   function   statsfemmeshommes(out   nb_femmes   int,   out   nb_hommes   int)
+returns record
+as $$
+begin
+select count(*) into nb_femmes from public.tabon where civilite = 'Mme';
+select count(*) into nb_hommes from public.tabon where civilite = 'M.';
+end;
+$$
+language plpgsql;

@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+/home/bouchaoui/Documents/ECLIPSE-WORKSPACE/PPE/eclipse-workspace-ee/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3761829206.index
+534339316.index
+2443950313.index
+3527613658.index
+1989607422.index
+3220307357.index
+3656559175.index
+2446018134.index
+2277459888.index
+2771303628.index
+3148033955.index
+1966939172.index
+3367909786.index

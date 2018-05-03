@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="modele.Abonne"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="javax.ws.rs.client.Client"/>
+<fullyQualifiedTypeName name="javax.ws.rs.client.ClientBuilder"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="dto.AbonneDTO"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.client.Entity"/>
+<fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ReferencedBean"/>
+<fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="persistence.FournisseurDePersistence"/>
+<fullyQualifiedTypeName name="ressources.Service"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.StoredProcedureQuery"/>
+<fullyQualifiedTypeName name="javax.persistence.ParameterMode"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

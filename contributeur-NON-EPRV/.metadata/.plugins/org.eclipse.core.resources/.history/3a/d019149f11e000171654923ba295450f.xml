@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Nouveau-contributeur SYSTEM "contributeur-element1.dtd" >
+<Nouveau-contributeur>
+  <Contributeur>
+    <prenom>prenom</prenom>
+    <nom>nom</nom>
+    <courriel/>
+    <mobile/>
+    <fixe/>
+    <specialite>specialite</specialite>
+  </Contributeur>
+</Nouveau-contributeur>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AbonneDTO.java&apos; to &apos;ihm_abonnement_migration/src/dto&apos;&#x0A;- Original project: &apos;ihm_abonnement&apos;&#x0A;- Destination element: &apos;ihm_abonnement_migration/src/dto&apos;&#x0A;- Original element: &apos;dto.AbonneDTO.java&apos;" description="Copy compilation unit" destination="=ihm_abonnement_migration/src&lt;dto" element1="/src&lt;dto{AbonneDTO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1510157400513" units="1" version="1.0"/>
+</session>

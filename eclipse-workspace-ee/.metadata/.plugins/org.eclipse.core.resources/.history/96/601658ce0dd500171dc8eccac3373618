@@ -1,0 +1,65 @@
+package controleur;
+
+import java.io.Serializable;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.core.MediaType;
+
+import org.primefaces.model.chart.PieChartModel;
+
+import dto.FemmesHommesDTO;
+
+@ManagedBean(name = "ctrl")
+@RequestScoped
+public class ControleurDesStatistiques implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private final String REST_URI = "http://172.17.0.5:8080/service_statistique_abonnes";
+	private PieChartModel modeleEnCamembert;
+	
+	private void initialiser() {		
+		
+		Client client = ClientBuilder.newClient();
+		FemmesHommesDTO dto = client
+		 .target(REST_URI)
+		 .path("abonnes")
+		 .path("dto")
+		 .request(MediaType.APPLICATION_XML)
+		 .get(FemmesHommesDTO.class);
+		
+		modeleEnCamembert = new PieChartModel();
+        
+		modeleEnCamembert.set("Femmes", dto.getNbfemmes());
+		modeleEnCamembert.set("Hommes", dto.getNbhommes());         
+		modeleEnCamembert.setTitle("Statistiques Femmes-Hommes des abonnés à la newsletter");
+		modeleEnCamembert.setLegendPosition("w");
+	}
+	
+	public String controler() {
+		return "statistiquesFH";
+	}
+	
+	public ControleurDesStatistiques() {
+		super();
+		this.initialiser();
+	}
+
+	public PieChartModel getModeleEnCamembert() {
+		return modeleEnCamembert;
+	}
+
+	public void setModeleEnCamembert(PieChartModel modeleEnCamembert) {
+		this.modeleEnCamembert = modeleEnCamembert;
+	}
+
+	public String getREST_URI() {
+		return REST_URI;
+	}	
+	
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nouveaux-contributeurs>
+	<contributeur>
+		<prenom>Isabelle</prenom>
+		<nom>MARTIN</nom>
+		<courriel>isabelle.martin@gmail.com</courriel>
+		<specialite>photographe</specialite>
+		<mobile>0655664411</mobile>
+		<adresse>
+			<voie>10 allée des lilas</voie>
+			<specialisation>batiment sud</specialisation>
+			<codepostal>78120</codepostal>
+			<ville>Rambouillet</ville>
+			<pays>France</pays>
+		</adresse>
+	</contributeur>
+	<contributeur>
+		<prenom>Pierre</prenom>
+		<nom>DUPONT</nom>
+		<courriel>dupontpierre@hotmail.fr</courriel>
+		<specialite>graphiste</specialite>
+		<mobile>0699887755</mobile>
+		<fixe>0555447788</fixe>
+		<adresse>
+			<voie>4 avenue Cerez</voie>
+			<specialisation>escalier 3</specialisation>
+			<codepostal>87000</codepostal>
+			<ville>Limoges</ville>
+			<pays>France</pays>
+		</adresse>
+	</contributeur>
+	<contributeur>
+		<prenom>Gunter</prenom>
+		<nom>SCHMIT</nom>
+		<courriel>g.schmit@freenet.de</courriel>
+		<specialite>maquettiste</specialite>
+		<mobile>0611223344</mobile>
+		<fixe>0555447788</fixe>
+		<adresse>
+			<voie>Münchener Str. 5</voie>
+			<codepostal>14612</codepostal>
+			<ville>Falkensee</ville>
+			<pays>Allemagne</pays>
+		</adresse>
+	</contributeur>
+</nouveaux-contributeurs>

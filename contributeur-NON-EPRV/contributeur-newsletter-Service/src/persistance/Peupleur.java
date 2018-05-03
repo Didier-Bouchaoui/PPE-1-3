@@ -1,0 +1,32 @@
+package persistance;
+
+import java.util.Date;
+
+import com.db4o.ObjectContainer;
+import com.db4o.cs.Db4oClientServer;
+
+import modele.Adresse;
+import modele.Contributeur;
+
+
+
+public class Peupleur {
+
+	public static void main(String[] args) {
+		
+	
+		ObjectContainer conteneur = null;
+		
+				conteneur = Db4oClientServer.openClient("172.17.0.2", 4448, "db4o", "db4o");
+				
+				Contributeur c1 = new Contributeur("Isabelle", "Martin", "isa.martin@gmail.com", "photographe", "0655446622", "0144778899", new Adresse("10 allée des lilas", "escalier 2", "75004", "Paris", "France"));
+				
+				conteneur.store(c1);
+				
+				
+				conteneur.commit();
+				conteneur.close();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="modele.Contributeur"/>
+<fullyQualifiedTypeName name="com.db4o.cs.Db4oClientServer"/>
+<fullyQualifiedTypeName name="com.db4o.ObjectContainer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="modele.Adresse"/>
+<fullyQualifiedTypeName name="com.thoughtworks.xstream.io.xml.StaxDriver"/>
+<fullyQualifiedTypeName name="com.thoughtworks.xstream.XStream"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.tools.ant.types.resources.Files"/>
+</qualifiedTypeNameHistroy>

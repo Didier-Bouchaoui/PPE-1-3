@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT nouveaux-contributeurs (contributeur+)>
+<!ELEMENT contributeur (prenom, nom, courriel, specialite, mobile, fixe?, adresse)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT courriel (#PCDATA)>
+<!ELEMENT specialite (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT fixe (#PCDATA)>
+<!ELEMENT adresse (voie, specialisation?, codepostal, ville, pays)>
+<!ELEMENT voie (#PCDATA)>
+<!ELEMENT specialisation (#PCDATA)>
+<!ELEMENT codepostal (#PCDATA)>
+<!ELEMENT ville (#PCDATA)> 
+<!ELEMENT pays (#PCDATA)> 

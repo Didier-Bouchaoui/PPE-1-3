@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/bouchaoui/Documents/ECLIPSE-WORKSPACE/PPE/menu_admin-NON-EPRV/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3758012015.index
+3019085654.index
+2190054429.index
+3211848592.index
+2158021175.index
+2042627449.index

@@ -1,0 +1,25 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.org/ui">
+
+<f:view encoding="UTF-8" contentType="text/html"> 
+<h:head><title><ui:insert name="title">Administration Newsletter</ui:insert></title></h:head>
+
+    <h:body>
+	<h:form>
+        <p:panelMenu style="width:600px; display:center" styleClass="ui-menubar" autoSubmenuDisplay="true">
+                <p:submenu label="Administration de la Newsletter">                                                                          
+                    <p:menuitem value="Abonnement à la newsletter" url="http://172.17.0.8:8080/ihm-abonnement-newsletter/" icon="fa fa-list-alt"/>                                       
+                    <p:menuitem value="Statistiques répartition Femme-Homme" url="http://172.17.0.8:8080/ihm-statistique-newsletter/" icon="fa fa-pie-chart"/>                   	
+<!--                     <p:menuitem value="Statistiques répartition par services" url="http://172.17.0.8:8080/ihm-statistiques" icon="fa fa-bar-chart"/>                  	 -->
+<!--                    <p:menuitem value="Enregistrement des nouveaux contributeurs" url="http://172.17.0.8:8080/ihm-contributeurs" icon="fa fa-save"/>                   -->
+                </p:submenu>  
+        </p:panelMenu>
+
+        <ui:insert name="general_content" />
+    </h:form>
+    </h:body>
+</f:view>
+</ui:composition>
